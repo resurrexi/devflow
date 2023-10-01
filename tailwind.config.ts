@@ -12,7 +12,7 @@ const config: Config = {
     colors: {
       primary: colors.blue,
       secondary: colors.amber,
-      neutral: colors.gray,
+      neutral: colors.slate,
     },
   },
   plugins: [require("@tailwindcss/typography")],
