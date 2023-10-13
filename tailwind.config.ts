@@ -10,8 +10,8 @@ const config: Config = {
   ],
   theme: {
     colors: {
-      primary: colors.blue,
-      secondary: colors.amber,
+      primary: colors.amber,
+      secondary: colors.blue,
       neutral: colors.slate,
     },
     extend: {
