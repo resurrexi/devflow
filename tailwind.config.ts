@@ -14,6 +14,12 @@ const config: Config = {
       secondary: colors.amber,
       neutral: colors.slate,
     },
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-inter)"],
+        mono: ["var(--font-spaceGrotesk)"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

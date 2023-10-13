@@ -43,7 +43,9 @@ export default function RootLayout({
     >
       <ThemeProvider>
         <html lang="en">
-          <body className={`${inter.variable} ${spaceGrotesk.variable}`}>
+          <body
+            className={`${inter.variable} ${spaceGrotesk.variable} font-sans`}
+          >
             {children}
           </body>
         </html>
